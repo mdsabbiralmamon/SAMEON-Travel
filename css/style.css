@@ -9,3 +9,9 @@
     box-sizing: border-box;
     font-family: Bebas Neue;
 }
+
+.Container{
+    max-width: 79.17%;
+    width: 1140px;
+    margin: 0 auto;
+}

@@ -707,3 +707,59 @@ main .Container .dealsAndDiscountsContainer .buttonLower .allPacks {
     font-weight: 800;
     border: none;
 }
+
+/* ===========================================
+        Perfect places section CSS
+=========================================== */
+
+main .Container .perfectPlacesContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 6.25rem 0;
+}
+
+main .Container .perfectPlacesContainer .perfectPlacesLeftDetails {
+    max-width: 33.75rem;
+    max-height: 34.375rem;
+}
+
+main .Container .perfectPlacesContainer .perfectPlacesLeftDetails h2 {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+main .Container .perfectPlacesContainer .perfectPlacesLeftDetails p {
+    font-weight: 400;
+    line-height: 1.625rem;
+    max-width: 36.063rem;
+    margin: 1.5rem 0;
+}
+
+main .Container .perfectPlacesContainer .perfectPlacesLeftDetails ul {
+    max-width: 32.813rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    padding-left: 1.25rem;
+}
+
+main .Container .perfectPlacesContainer .perfectPlacesLeftDetails button {
+    width: 10.875rem;
+    height: 3.25rem;
+    border-radius: 0.5rem;
+    background: #FF9500;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+    border: none;
+    margin: 2rem 0;
+}
+
+main .Container .perfectPlacesContainer .perfectPlacesRightVideos iframe {
+    max-width: 38.125rem;
+    height: 26.5rem;
+    border-radius: 1rem;
+    background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+}

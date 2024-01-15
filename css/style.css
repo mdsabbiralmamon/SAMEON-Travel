@@ -7,7 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Bebas Neue;
+    font-family: Poppins;
     color: #173540;
 }
 
@@ -96,7 +96,6 @@ header .Container .heroSection h2 {
 
 header .heroSection p {
     color: #FFF;
-    font-family: poppins;
     max-width: 42.25rem;
     font-size: 1rem;
     font-weight: 400;
@@ -122,7 +121,6 @@ header .Container .heroSection .findNowContainer form input[type=text] {
     height: 3.25rem;
     border-radius: 0.5rem;
     background: #FFF;
-    font-family: poppins;
     border: 0.063rem solid #fff;
     padding: 1rem;
 }
@@ -139,7 +137,6 @@ header .Container .heroSection .findNowContainer form .when {
     border-radius: .5rem;
     background: #FFF;
     color: rgba(19, 19, 24, 0.50);
-    font-family: poppins;
     font-size: 1rem;
     font-weight: 400;
     border: 0.063rem solid #fff;
@@ -151,7 +148,6 @@ header .Container .heroSection .findNowContainer form .type {
     border-radius: 0.5rem;
     background: #FFF;
     color: rgba(19, 19, 24, 0.50);
-    font-family: poppins;
     font-size: 1rem;
     font-weight: 400;
     border: 0.063rem solid #fff;
@@ -165,9 +161,61 @@ header .Container .heroSection .findNowContainer form button {
     align-items: center;
     gap: 0.5rem;
     justify-content: center;
-    font-family: poppins;
 }
 
 header .Container .heroSection .whiteSpace {
     padding: .001rem;
+}
+
+/* ===========================================
+            Header Hero Section CSS
+=========================================== */
+main .Container .popularTourContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .Container .popularTourContainer .leftDemonstrations {
+    max-width: 33.75rem;
+    max-height: 34.375rem;
+}
+
+main .Container .popularTourContainer h2 {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+main .Container .popularTourContainer .leftDemonstrations p {
+    font-weight: 400;
+    line-height: 1.625rem;
+    max-width: 36.063rem;
+    margin: 1.5rem 0;
+}
+
+main .Container .popularTourContainer .leftDemonstrations ul {
+    max-width: 32.813rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    padding-left: 1.25rem;
+}
+
+main .Container .popularTourContainer .leftDemonstrations button {
+    width: 10.875rem;
+    height: 3.25rem;
+    border-radius: 0.5rem;
+    background: #FF9500;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+    border: none;
+}
+
+main .Container .popularTourContainer .rightImageSection {
+    width: 33.75rem;
+    height: 34.375rem;
+    border-radius: 1rem;
+    background: url(../Images/Rectangle\ 4.png), lightgray 50% / cover no-repeat;
 }

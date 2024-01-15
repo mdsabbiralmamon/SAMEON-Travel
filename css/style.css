@@ -401,7 +401,7 @@ main .Container .whyChooseUsContainer .chooseUsUpperCards .chooseUsUpperCardLeft
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.625rem;
-    margin-top: 1rem ;
+    margin-top: 1rem;
     text-align: left;
 }
 
@@ -460,4 +460,234 @@ main .Container .whyChooseUsContainer .chooseUslowerCards .chooseUsLowerCard p {
     line-height: 1.625rem;
     margin-top: 1rem;
     text-align: left;
+}
+
+/* ===========================================
+        Deals and discount Section CSS
+=========================================== */
+
+main .Container .dealsAndDiscountsContainer {
+    margin-top: 6.25rem;
+}
+
+main .Container .dealsAndDiscountsContainer h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+main .Container .dealsAndDiscountsContainer p {
+    width: 643px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625;
+    margin: 1.5rem auto 3rem auto;
+}
+
+main .Container .dealsAndDiscountsContainer .discountCards {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    max-width: 73.125rem;
+    /* height: 31.25rem; */
+    height: fit-content;
+    border-radius: 1rem;
+    background: url(../Images/Rectangle\ 12.png), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3.5rem;
+    margin-bottom: 1.5rem;
+}
+
+main .Container .dealsAndDiscountsContainer .discountCards .discountCard {
+    max-width: 36.188rem;
+    /* height: 24.313rem; */
+    height: fit-content;
+    border-radius: 1rem;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 3.125rem;
+}
+
+main .Container .dealsAndDiscountsContainer .discountCards .discountCard .cardTopInfo {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 1.5rem;
+}
+
+main .Container .dealsAndDiscountsContainer .discountCards .discountCard .cardTopInfo svg path {
+    fill: #FF9500;
+}
+
+main .Container .dealsAndDiscountsContainer .discountCards .discountCard .cardTopInfo p {
+    width: auto;
+    line-height: 0;
+    margin: 0;
+}
+
+main .Container .dealsAndDiscountsContainer .discountCards .discountCard .cardTopInfo .duration {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 0.5rem;
+}
+
+main .Container .dealsAndDiscountsContainer .discountCards .discountCard .cardTopInfo .members {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 0.5rem;
+}
+
+main .Container .dealsAndDiscountsContainer .discountCards .discountCard .cardTopInfo .location {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 0.5rem;
+}
+
+main .Container .dealsAndDiscountsContainer .discountCards .discountCard h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-align: left;
+    margin: 1.625rem 0 1rem 0;
+}
+
+main .Container .dealsAndDiscountsContainer .discountCards .discountCard p {
+    max-width: 28.25rem;
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    text-align: left;
+    margin: 0 0 1rem 0;
+}
+
+main .Container .dealsAndDiscountsContainer .discountCards .discountCard h3 {
+    color: #FF9500;
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-bottom: 2.375rem;
+}
+
+main .Container .dealsAndDiscountsContainer .discountCards .discountCard button {
+    width: 9.375rem;
+    height: 3.25rem;
+    border-radius: 0.5rem;
+    background: #FF9500;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+    border: none;
+    cursor: pointer;
+}
+
+/* +++++++++++++++++++++++++++++
+  Discount card reverse css  
+  +++++++++++++++++++++++++++ */
+
+main .Container .dealsAndDiscountsContainer .discountCardsReverse {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    max-width: 73.125rem;
+    /* height: 31.25rem; */
+    height: fit-content;
+    border-radius: 1rem;
+    background: url(../Images/Group\ 40.png), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    padding: 3.5rem;
+    margin-bottom: 1.5rem;
+}
+
+main .Container .dealsAndDiscountsContainer .discountCardsReverse .discountCardReverse {
+    max-width: 36.188rem;
+    /* height: 24.313rem; */
+    height: fit-content;
+    border-radius: 1rem;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 3.125rem;
+}
+
+main .Container .dealsAndDiscountsContainer .discountCardsReverse .discountCardReverse .cardTopInfoReverse {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 1.5rem;
+}
+
+main .Container .dealsAndDiscountsContainer .discountCardsReverse .discountCardReverse .cardTopInfoReverse svg path {
+    fill: #FF9500;
+}
+
+main .Container .dealsAndDiscountsContainer .discountCardsReverse .discountCardReverse .cardTopInfoReverse p {
+    width: auto;
+    line-height: 0;
+    margin: 0;
+}
+
+main .Container .dealsAndDiscountsContainer .discountCardsReverse .discountCardReverse .cardTopInfoReverse .durationReverse {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 0.5rem;
+}
+
+main .Container .dealsAndDiscountsContainer .discountCardsReverse .discountCardReverse .cardTopInfoReverse .membersReverse {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 0.5rem;
+}
+
+main .Container .dealsAndDiscountsContainer .discountCardsReverse .discountCardReverse .cardTopInfoReverse .locationReverse {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 0.5rem;
+}
+
+main .Container .dealsAndDiscountsContainer .discountCardsReverse .discountCardReverse h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-align: left;
+    margin: 1.625rem 0 1rem 0;
+}
+
+main .Container .dealsAndDiscountsContainer .discountCardsReverse .discountCardReverse p {
+    max-width: 28.25rem;
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    text-align: left;
+    margin: 0 0 1rem 0;
+}
+
+main .Container .dealsAndDiscountsContainer .discountCardsReverse .discountCardReverse h3 {
+    color: #FF9500;
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-bottom: 2.375rem;
+}
+
+main .Container .dealsAndDiscountsContainer .discountCardsReverse .discountCardReverse button {
+    width: 9.375rem;
+    height: 3.25rem;
+    border-radius: 0.5rem;
+    background: #FF9500;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+    border: none;
+    cursor: pointer;
 }

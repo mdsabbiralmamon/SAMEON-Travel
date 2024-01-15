@@ -17,6 +17,22 @@
     margin: 0 auto;
 }
 
+.primary-button {
+    padding: 1rem;
+    color: #FFF;
+    font-weight: 700;
+    border-radius: 0.5rem;
+    background: #FF9500;
+    border: 0.063rem solid #FF9500;
+    position: relative;
+    cursor: pointer;
+}
+
+.primary-button::before {
+    content: url(../Images/searchicon.svg);
+    margin-left: 8px;
+}
+
 /* ===========================================
             Header Navbar CSS
 =========================================== */
@@ -65,29 +81,32 @@ header .Container .heroSection {
     border-radius: 1rem;
     background-repeat: repeat;
     background-size: cover;
+    background-position: center;
     text-align: center;
-    height: 320px;
+    height: fit-content;
+    margin: 3.125rem 0;
 }
 
 header .Container .heroSection h2 {
     color: #FFF;
     font-size: 4rem;
     font-weight: 800;
+    padding-top: 6.625rem;
 }
 
 header .heroSection p {
     color: #FFF;
-    width: 42.25rem;
+    font-family: poppins;
+    max-width: 42.25rem;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.625rem;
-    margin: 0 auto;
+    margin: 1.5rem auto 3rem auto;
 }
 
 /* Header Find Now Container CSS */
 
 header .Container .heroSection .findNowContainer {
-    border: 2px solid red;
     display: flex;
     padding: 1rem;
     align-items: center;
@@ -99,55 +118,56 @@ header .Container .heroSection .findNowContainer {
 }
 
 header .Container .heroSection .findNowContainer form input[type=text] {
-    width: 174px;
-    height: 52px;
-    border-radius: 8px;
+    width: 10.875rem;
+    height: 3.25rem;
+    border-radius: 0.5rem;
     background: #FFF;
+    font-family: poppins;
+    border: 0.063rem solid #fff;
+    padding: 1rem;
 }
 
 header .Container .heroSection .findNowContainer form input[type=text]::placeholder {
     color: rgba(19, 19, 24, 0.50);
-    font-size: 16px;
-    font-style: normal;
+    font-size: 1rem;
     font-weight: 400;
-    line-height: normal;
 }
 
 header .Container .heroSection .findNowContainer form .when {
-    width: 174px;
-    height: 52px;
-    flex-shrink: 0;
-    border-radius: 8px;
+    width: 10.875rem;
+    height: 3.25rem;
+    border-radius: .5rem;
     background: #FFF;
     color: rgba(19, 19, 24, 0.50);
-    font-family: Mulish;
-    font-size: 16px;
-    font-style: normal;
+    font-family: poppins;
+    font-size: 1rem;
     font-weight: 400;
-    line-height: normal;
+    border: 0.063rem solid #fff;
 }
 
 header .Container .heroSection .findNowContainer form .type {
-    width: 174px;
-    height: 52px;
-    flex-shrink: 0;
-    border-radius: 8px;
+    width: 10.875rem;
+    height: 3.25rem;
+    border-radius: 0.5rem;
     background: #FFF;
     color: rgba(19, 19, 24, 0.50);
-    font-family: Mulish;
-    font-size: 16px;
-    font-style: normal;
+    font-family: poppins;
+    font-size: 1rem;
     font-weight: 400;
-    line-height: normal;
+    border: 0.063rem solid #fff;
 }
 
-header .Container .heroSection .findNowContainer form input[type=button] {
-    width: 174px;
-    height: 52px;
-    border-radius: 8px;
-    text-align: center;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+header .Container .heroSection .findNowContainer form button {
+    width: 10.875rem;
+    height: 3.25rem;
+    border-radius: 0.5rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: center;
+    font-family: poppins;
+}
+
+header .Container .heroSection .whiteSpace {
+    padding: .001rem;
 }

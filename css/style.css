@@ -3,15 +3,56 @@
 =========================================== */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Bebas Neue;
+    color: #173540;
 }
 
-.Container{
+.Container {
     max-width: 79.17%;
-    width: 1140px;
+    width: 71.25rem;
     margin: 0 auto;
+}
+
+/* ===========================================
+            Header Navbar CSS
+=========================================== */
+header .navBar {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .navBar .leftLogo {
+    max-width: 11.875rem;
+    max-height: 3.125rem;
+}
+
+header .navBar .leftLogo img {
+    width: 100%;
+}
+
+header .navBar .rightNavigation {
+    display: flex;
+    align-items: center;
+}
+
+header .navBar .rightNavigation ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+header .navBar .rightNavigation ul a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+header .navBar .rightNavigation ul li:first-child a {
+    color: #FF9500;
+    font-size: 18px;
+    font-weight: 700;
 }

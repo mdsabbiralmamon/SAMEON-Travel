@@ -354,3 +354,110 @@ main .Container .destinationSelection .placesContainer .row3 .Bandarban {
     align-items: center;
     justify-content: center;
 }
+
+/* ===========================================
+        why choose us Section CSS
+=========================================== */
+
+main .Container .whyChooseUsContainer h2 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+main .Container .whyChooseUsContainer p {
+    max-width: 40.188rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    margin: 1.5rem auto 3rem auto;
+    text-align: center;
+}
+
+main .Container .whyChooseUsContainer .chooseUsUpperCards {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 1.5rem;
+}
+
+main .Container .whyChooseUsContainer .chooseUsUpperCardLeft {
+    width: 35.813rem;
+    min-height: 17.75rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 2rem;
+}
+
+main .Container .whyChooseUsContainer .chooseUsUpperCards .chooseUsUpperCardLeft h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-top: 2rem;
+    text-align: left;
+}
+
+main .Container .whyChooseUsContainer .chooseUsUpperCards .chooseUsUpperCardLeft p {
+    /* max-width: 30.375rem; */
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    margin-top: 1rem ;
+    text-align: left;
+}
+
+main .Container .whyChooseUsContainer .chooseUsUpperCards .chooseUsUpperCardRight {
+    max-width: 35.813rem;
+    min-height: 17.75rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 2rem;
+
+}
+
+main .Container .whyChooseUsContainer .chooseUsUpperCards .chooseUsUpperCardRight h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-top: 2rem;
+    text-align: left;
+}
+
+main .Container .whyChooseUsContainer .chooseUsUpperCards .chooseUsUpperCardRight p {
+    /* max-width: 30.375rem; */
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    margin-top: 1rem;
+    text-align: left;
+}
+
+main .Container .whyChooseUsContainer .chooseUslowerCards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .Container .whyChooseUsContainer .chooseUslowerCards .chooseUsLowerCard {
+    max-width: 35.813rem;
+    min-height: 17.75rem;
+    border-radius: 1rem;
+    border: 2px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 2rem;
+}
+
+main .Container .whyChooseUsContainer .chooseUslowerCards .chooseUsLowerCard h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-top: 2rem;
+    text-align: left;
+}
+
+main .Container .whyChooseUsContainer .chooseUslowerCards .chooseUsLowerCard p {
+    /* max-width: 30.375rem; */
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    margin-top: 1rem;
+    text-align: left;
+}

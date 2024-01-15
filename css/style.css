@@ -691,3 +691,19 @@ main .Container .dealsAndDiscountsContainer .discountCardsReverse .discountCardR
     border: none;
     cursor: pointer;
 }
+
+main .Container .dealsAndDiscountsContainer .buttonLower {
+    text-align: center;
+}
+
+main .Container .dealsAndDiscountsContainer .buttonLower .allPacks {
+    width: 13.125rem;
+    height: 3.25rem;
+    border-radius: 0.5rem;
+    background: #FF9500;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+    border: none;
+}

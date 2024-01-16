@@ -74,6 +74,16 @@ header .Container .navBar .rightNavigation ul li:first-child a {
     font-weight: 700;
 }
 
+
+header .Container .navBar .mobileHamburgerMenu {
+    display: inline-flex;
+    align-items: center;
+}
+
+header .Container .navBar .hamburger {
+    display: none;
+}
+
 /* ===========================================
             Header Hero Section CSS
 =========================================== */
@@ -260,6 +270,8 @@ main .Container .destinationSelection .placesContainer .row1 .Maldives {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 main .Container .destinationSelection .placesContainer .row1 .Indonesia {
@@ -273,6 +285,8 @@ main .Container .destinationSelection .placesContainer .row1 .Indonesia {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 main .Container .destinationSelection .placesContainer .row2 {
@@ -293,6 +307,8 @@ main .Container .destinationSelection .placesContainer .row2 .Srilanka {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 main .Container .destinationSelection .placesContainer .row2 .NorthAmerica {
@@ -306,6 +322,8 @@ main .Container .destinationSelection .placesContainer .row2 .NorthAmerica {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 main .Container .destinationSelection .placesContainer .row2 .Kashmir {
@@ -339,6 +357,8 @@ main .Container .destinationSelection .placesContainer .row3 .Bangladesh {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 main .Container .destinationSelection .placesContainer .row3 .Bandarban {

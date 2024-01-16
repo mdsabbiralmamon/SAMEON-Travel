@@ -10,15 +10,21 @@
     /* ===========================================
                     Header Navbar CSS
      =========================================== */
-    header .Container .navBar {
-        flex-direction: column;
-        align-items: center;
-        gap: 1rem;
+     header .Container .navBar .leftLogo {
+        width: 50%;
+    }
+
+    header .Container .navBar .rightNavigation {
+        display: none;
     }
 
     header .Container .navBar .rightNavigation ul {
         flex-direction: column;
         text-align: center;
+    }
+
+    header .Container .navBar .hamburger {
+        display: contents;
     }
 
     /* ===========================================

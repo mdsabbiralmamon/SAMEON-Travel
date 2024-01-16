@@ -19,7 +19,7 @@
                 <div class="leftLogo">
                     <img src="Images/SAMEONTravelLogo.png" alt="SAMEON Logo">
                 </div>
-                <div class="rightNavigation">
+                <div class="rightNavigation" id="NavSection">
                     <ul>
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Packages</a></li>
@@ -29,7 +29,7 @@
                     </ul>
                 </div>
                 <div class="mobileHamburgerMenu">
-                <div class="hamburger">
+                <div class="hamburger" onclick="showNavSection()">
                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12" viewBox="0 0 18 12" fill="none">
                         <path d="M0.75 0.75H17.25M0.75 6H17.25M0.75 11.25H17.25" stroke="#131318" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                       </svg>
@@ -1126,6 +1126,14 @@
             </div>
         </div>
     </footer>
+    <script>
+        function showNavSection() {
+            var rightNavigation = document.getElementById('NavSection');
+
+            // Toggle the visibility of rightNavigation
+            rightNavigation.style.display = (rightNavigation.style.display === 'flex') ? 'none' : 'flex';
+        }
+    </script>
 </body>
 
 </html>

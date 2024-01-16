@@ -39,6 +39,7 @@
 header .Container .navBar {
     display: flex;
     justify-content: space-between;
+    margin-top: 3.25rem;
 }
 
 header .Container .navBar .leftLogo {

@@ -1,0 +1,432 @@
+/* small devices (phones, 576px and down) */
+
+@media only screen and (max-width: 576px) {
+    .Container {
+        max-width: 98%;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    /* ===========================================
+                    Header Navbar CSS
+     =========================================== */
+    header .Container .navBar {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    header .Container .navBar .rightNavigation ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* ===========================================
+            Header Hero Section CSS
+    =========================================== */
+    header .Container .heroSection h2 {
+        font-size: 1.375rem;
+    }
+
+    header .heroSection p {
+        font-size: 0.875rem;
+        line-height: 1.313rem;
+    }
+
+    /* Header Find Now Container CSS */
+
+    header .Container .heroSection .findNowContainer {
+        flex-direction: column-reverse;
+    }
+
+    header .Container .heroSection .findNowContainer form input[type=text] {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    header .Container .heroSection .findNowContainer form .when {
+        width: 100%;
+        margin-bottom: 1rem;
+        padding-left: .9rem;
+    }
+
+    header .Container .heroSection .findNowContainer form .type {
+        width: 100%;
+        margin-bottom: 1rem;
+        padding-left: .9rem;
+    }
+
+    header .Container .heroSection .findNowContainer form button {
+        width: 100%;
+    }
+
+    /* ===========================================
+        Popular Tours Section CSS
+    =========================================== */
+    main .Container .popularTourContainer {
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 24px;
+    }
+
+    main .Container .popularTourContainer .leftDemonstrations {
+        width: 100%;
+    }
+
+    main .Container .popularTourContainer h2 {
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    main .Container .popularTourContainer p {
+        font-size: 14px;
+    }
+
+    main .Container .popularTourContainer .leftDemonstrations ul {
+        font-size: 14px;
+    }
+
+    main .Container .popularTourContainer .rightImageSection {
+        width: 100%;
+    }
+
+    /* ===========================================
+        destination selection Section CSS
+    =========================================== */
+    main .Container .destinationSelection h2 {
+        font-size: 20px;
+    }
+
+    main .Container .destinationSelection p {
+        font-size: 14px;
+    }
+
+    main .Container .destinationSelection .placesContainer .row1 {
+        flex-direction: column;
+    }
+
+    main .Container .destinationSelection .placesContainer .row1 .Maldives {
+        width: 100%;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    main .Container .destinationSelection .placesContainer .row1 .Indonesia {
+        width: 100%;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    main .Container .destinationSelection .placesContainer .row2 {
+        flex-direction: column;
+    }
+
+    main .Container .destinationSelection .placesContainer .row2 .Srilanka {
+        width: 100%;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    main .Container .destinationSelection .placesContainer .row2 .NorthAmerica {
+        width: 100%;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    main .Container .destinationSelection .placesContainer .row2 .Kashmir {
+        width: 100%;
+        font-size: 20px;
+        font-weight: 700;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    main .Container .destinationSelection .placesContainer .row3 {
+        flex-direction: column;
+    }
+
+    main .Container .destinationSelection .placesContainer .row3 .Bangladesh {
+        width: 100%;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    main .Container .destinationSelection .placesContainer .row3 .Bandarban {
+        width: 100%;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    /* ===========================================
+        why choose us Section CSS
+    =========================================== */
+    main .Container .whyChooseUsContainer h2 {
+        font-size: 20px;
+    }
+
+    main .Container .whyChooseUsContainer p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    main .Container .whyChooseUsContainer .chooseUsUpperCards {
+        flex-direction: column;
+    }
+
+    main .Container .whyChooseUsContainer .chooseUsUpperCardLeft {
+        width: 100%;
+    }
+
+    main .Container .whyChooseUsContainer .chooseUsUpperCards .chooseUsUpperCardLeft h2 {
+        font-size: 20px;
+    }
+
+    main .Container .whyChooseUsContainer .chooseUsUpperCards .chooseUsUpperCardLeft p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    main .Container .whyChooseUsContainer .chooseUsUpperCards .chooseUsUpperCardRight {
+        width: 100%;
+
+    }
+
+    main .Container .whyChooseUsContainer .chooseUsUpperCards .chooseUsUpperCardRight h2 {
+        font-size: 20px;
+    }
+
+    main .Container .whyChooseUsContainer .chooseUsUpperCards .chooseUsUpperCardRight p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    main .Container .whyChooseUsContainer .chooseUslowerCards {
+        flex-direction: column;
+    }
+
+    main .Container .whyChooseUsContainer .chooseUslowerCards .chooseUsLowerCard {
+        width: 100%;
+    }
+
+    main .Container .whyChooseUsContainer .chooseUslowerCards .chooseUsLowerCard h2 {
+        font-size: 20px;
+    }
+
+    main .Container .whyChooseUsContainer .chooseUslowerCards .chooseUsLowerCard p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    /* ===========================================
+        Deals and discount Section CSS
+    =========================================== */
+    main .Container .dealsAndDiscountsContainer {
+        margin-top: 24px;
+    }
+
+    main .Container .dealsAndDiscountsContainer h2 {
+        font-size: 20px
+    }
+
+    main .Container .dealsAndDiscountsContainer p {
+        font-size: 14px;
+        line-height: 24px;
+        width: 100%;
+    }
+
+    main .Container .dealsAndDiscountsContainer .discountCards {
+        flex-direction: column;
+        justify-content: flex-end;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    main .Container .dealsAndDiscountsContainer .discountCards .discountCard {
+        max-width: 100%
+    }
+
+    main .Container .dealsAndDiscountsContainer .discountCards .discountCard .cardTopInfo {
+        flex-wrap: wrap;
+    }
+
+    main .Container .dealsAndDiscountsContainer .discountCards .discountCard .cardTopInfo p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    main .Container .dealsAndDiscountsContainer .discountCards .discountCard h2 {
+        font-size: 20px;
+    }
+
+    main .Container .dealsAndDiscountsContainer .discountCards .discountCard p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    main .Container .dealsAndDiscountsContainer .discountCards .discountCard h3 {
+        font-size: 16px;
+    }
+
+    main .Container .dealsAndDiscountsContainer .discountCards .discountCard button {
+        width: 130px;
+        height: 40px;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    /* ===========================================
+        Discount reverse  Section CSS
+    =========================================== */
+    main .Container .dealsAndDiscountsContainer .discountCardsReverse {
+        flex-direction: column;
+        justify-content: flex-end;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    main .Container .dealsAndDiscountsContainer .discountCardsReverse .discountCardReverse {
+        max-width: 100%
+    }
+
+    main .Container .dealsAndDiscountsContainer .discountCardsReverse .discountCardReverse .cardTopInfoReverse {
+        flex-wrap: wrap;
+    }
+
+    main .Container .dealsAndDiscountsContainer .discountCardsReverse .discountCardReverse .cardTopInfoReverse p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    main .Container .dealsAndDiscountsContainer .discountCardsReverse .discountCardReverse h2 {
+        font-size: 20px;
+    }
+
+    main .Container .dealsAndDiscountsContainer .discountCardsReverse .discountCardReverse p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    main .Container .dealsAndDiscountsContainer .discountCardsReverse .discountCardReverse h3 {
+        font-size: 16px;
+    }
+
+    main .Container .dealsAndDiscountsContainer .discountCardsReverse .discountCardReverse button {
+        width: 130px;
+        height: 40px;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    /* ===========================================
+        Bonus Blog Section CSS
+    =========================================== */
+    main .Container .recentBlogsContainer {
+        width: 100%;
+    }
+
+    main .Container .recentBlogsContainer .blogsCards h2 {
+        font-size: 20px;
+    }
+
+    main .Container .recentBlogsContainer .blogsCards p {
+        font-size: 14px;
+        line-height: 24px;
+        width: 100%;
+    }
+
+    main .Container .recentBlogsContainer .blogsCards .card1 .headerImage {
+        width: 100%;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    /* ===========================================
+        Perfect places section CSS
+    =========================================== */
+
+    main .Container .perfectPlacesContainer {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    main .Container .perfectPlacesContainer .perfectPlacesLeftDetails {
+        width: 100%;
+    }
+
+    main .Container .perfectPlacesContainer .perfectPlacesLeftDetails h2 {
+        font-size: 20px;
+    }
+
+    main .Container .perfectPlacesContainer .perfectPlacesLeftDetails p {
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 400;
+    }
+
+    main .Container .perfectPlacesContainer .perfectPlacesLeftDetails ul {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+
+    main .Container .perfectPlacesContainer .perfectPlacesLeftDetails button {
+        width: 174px;
+        height: 52px;
+        font-size: 20px;
+        margin: 1rem;
+    }
+
+    main .Container .perfectPlacesContainer .perfectPlacesRightVideos iframe {
+        width: 100%;
+        height: auto;
+    }
+
+    /* ===========================================
+        NewsLetter section CSS
+    =========================================== */
+
+    main .Container .newsletterContainer {
+        flex-direction: column;
+    }
+
+    main .Container .newsletterContainer .newsletterLeft {
+        width: 100%;
+    }
+
+    main .Container .newsletterContainer .newsletterLeft h2 {
+        font-size: 20px;
+    }
+
+    main .Container .newsletterContainer .newsletterLeft p {
+        font-size: 14px;
+        line-height: 24px;
+        margin: 0px;
+    }
+
+    main .Container .newsletterContainer .newsletterRight {
+        width: 100%;
+    
+    }
+
+    main .Container .newsletterContainer .newsletterRight .poster {
+        top: 300px;
+        left: 140px;
+        height: fit-content;
+        width: fit-content;
+    }
+
+    /* ===========================================
+        footer section CSS
+    =========================================== */
+
+    footer .Container .footerElements p {
+        width: 100%;
+    }
+}

@@ -39,6 +39,7 @@
 header .Container .navBar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 3.25rem;
 }
 
@@ -53,7 +54,7 @@ header .Container .navBar .leftLogo img {
 
 header .Container .navBar .rightNavigation {
     display: flex;
-    align-items: center;
+    justify-content: space-between;
 }
 
 header .Container .navBar .rightNavigation ul {
@@ -77,7 +78,7 @@ header .Container .navBar .rightNavigation ul li:first-child a {
 
 header .Container .navBar .mobileHamburgerMenu {
     display: inline-flex;
-    align-items: center;
+    justify-content: right;
 }
 
 header .Container .navBar .hamburger {

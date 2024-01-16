@@ -14,7 +14,7 @@
         width: 50%;
     }
 
-    header .Container .navBar .rightNavigation {
+    header .Container .navBar .rightNavigation ul{
         display: none;
     }
 

@@ -1,0 +1,64 @@
+/* small devices (phones, 576px and down) */
+
+@media only screen and (min-width: 576px) and (max-width: 1170px){
+
+    /* Global */
+
+    .Container {
+        max-width: 90%;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    /* Bonus Blog Section CSS */
+
+    main .Container .recentBlogsContainer {
+        width: 100%;
+    }
+
+    main .Container .recentBlogsContainer .blogsCards .card1 .headerImage {
+        width: 100%;
+    }
+
+    /* Perfect places section CSS */
+
+    main .Container .perfectPlacesContainer {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    main .Container .perfectPlacesContainer .perfectPlacesLeftDetails {
+        max-width: 100%;
+    }
+
+    main .Container .perfectPlacesContainer .perfectPlacesLeftDetails {
+        width: 100%;
+    }
+
+
+
+    main .Container .perfectPlacesContainer .perfectPlacesRightVideos {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    main .Container .perfectPlacesContainer .perfectPlacesRightVideos iframe {
+        width: 100%;
+    }
+
+    /* NewsLetter section CSS */
+
+    main .Container .newsletterContainer {
+        flex-direction: column;
+    }
+
+    main .Container .newsletterContainer .newsletterLeft {
+        width: 100%;
+    }
+
+    main .Container .newsletterContainer .newsletterRight {
+        width: 100%;
+    
+    }
+}

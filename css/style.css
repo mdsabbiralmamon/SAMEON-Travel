@@ -78,7 +78,7 @@ header .Container .navBar .rightNavigation ul li:first-child a {
             Header Hero Section CSS
 =========================================== */
 header .Container .heroSection {
-    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/heroimage.png");
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/heroimage.png);
     border-radius: 1rem;
     background-repeat: repeat;
     background-size: cover;
